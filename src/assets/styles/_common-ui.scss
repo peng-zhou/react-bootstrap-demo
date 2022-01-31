@@ -1,0 +1,77 @@
+body {
+    background-color: #F6F6F6 !important;
+}
+
+.page-header {
+    h1 {
+        margin: 24px 0 0 24px !important;
+        font: $page-header-font;
+        text-transform: uppercase;
+    }
+}
+
+.card-wrapper {
+    margin: $gutter !important;
+    background-color: #fff;
+
+    &.active {
+        .icon-chevron-right {
+            background-color: #FFE600;
+            transform: rotate(90deg);
+        }
+    }
+}
+
+.card {
+    border: 0 !important;
+    padding: $gutter;
+    cursor: pointer;
+
+    .card-upper {
+        .card-title {
+            font: $card-title-font;
+            color: $card-title-color;
+            margin: 0 0 4px 0;
+
+            text-transform: uppercase;
+        }
+
+        .card-text {
+            font: $card-text-font;
+            color: $card-text-color;
+        }
+    }
+
+    .card-body {
+        padding: 0;
+        ;
+    }
+
+    .card-lower {
+        font: $card-text-value-font;
+        color: $card-title-color;
+        text-transform: uppercase;
+
+        p {
+            font: $card-text-label-font;
+            color: $card-text-color;
+            text-transform: initial;
+        }
+    }
+
+    .icon-chevron-right {
+        width: 48px;
+        height: 48px;
+        border: 2px solid #FFE600;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        margin-top: 4px;
+
+        svg {
+            line-height: 48px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+/* Shared Colors */
+$color-chevron-border: #FFE600;
+
+/* Gutter */
+$gutter: 16px;
+
+/* Break points */
+$xl-break-point: 1279px !default;
+$l-break-point: 1024px !default;
+$m-break-point: 600px !default;
+
+
+/* fonts */
+$card-title-font-family: "brandon-grotesque";
+$card-text-font-family: "bitter";
+
+$page-header-font: 900 normal 40px/50px $card-title-font-family;
+$card-title-font: bold normal 20px/30px $card-title-font-family;
+$card-text-font: 400 normal 14px/21px $card-text-font-family;
+$card-text-value-font: 390 normal 16px/24px $card-title-font-family;
+$card-text-label-font: 400 normal 12px/18px $card-text-font-family;
+
+$card-title-color: #2D2D2D;
+$card-text-color: #73777C;
